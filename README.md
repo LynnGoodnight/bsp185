@@ -40,6 +40,7 @@ Scripts in this directory are run in the following order:
 6. html/html_advanced_analysis.sh
 
 sbatch demux/muci_demux.sh
+
 sbatch count/muci_count_11.sh
 sbatch count/muci_count_12.sh
 sbatch count/muci_count_13.sh
