@@ -42,9 +42,15 @@ Scripts in this directory are run in the following order:
 sbatch demux/muci_demux.sh
 
 sbatch count/muci_count_11.sh
+
 sbatch count/muci_count_12.sh
+
 sbatch count/muci_count_13.sh
+
 sbatch html/muci_html_preprocess.sh
+
 sbatch html/muci_html_cluster.sh
+
 sbatch html/html_differential.sh
+
 sbatch -w compute001 html/html_advanced_analysis.sh
